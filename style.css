@@ -4,6 +4,11 @@ body {
 }
 h1 {
   font-size: 50px;
+  color: rgb(32, 32, 32);
+}
+h2 {
+  font-size: 40px;
+  color: rgb(51, 49, 49);
 }
 .half-width h1 {
   line-height: 20px;
@@ -15,20 +20,16 @@ h1 {
 .head-section {
   background-image: url(images/top-bg2.png);
   background-repeat: no-repeat;
-  margin-bottom: 100px;
 }
 .flexible-container {
   display: flex;
-}
-.top {
-  padding-top: 80px;
 }
 .half-width {
   width: 50%;
   margin-left: 5%;
 }
 .half-width img {
-  width: 100%;
+  width: 80%;
 }
 .btn {
   text-decoration: none;
@@ -42,6 +43,7 @@ h1 {
   border-radius: 15px;
   font-weight: bold;
   color: white;
+  box-shadow: 2px 3px 10px orange;
 }
 .half-width p {
   margin-bottom: 50px;
@@ -91,4 +93,11 @@ ul a {
   background-image: url(images/about-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+#about-me {
+  padding-top: 100px;
+  margin-right: 150px;
+}
+#about-me > p {
+  margin-bottom: 100px;
 }
