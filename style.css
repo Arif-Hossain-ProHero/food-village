@@ -10,7 +10,7 @@ h1 {
   margin-bottom: 50px;
 }
 .tomato-color {
-  color: tomato;
+  color: rgb(255, 48, 11);
 }
 .head-section {
   background-image: url(images/top-bg2.png);
@@ -70,4 +70,17 @@ ul a {
 }
 .logo {
   margin-top: -22px;
+}
+#sign-up-btn {
+  color: white;
+  padding: 16px 24px;
+  background-image: linear-gradient(
+    to right,
+    rgb(238, 116, 1),
+    rgb(231, 174, 68)
+  );
+  border-radius: 12px;
+}
+#home-btn {
+  color: orange;
 }
