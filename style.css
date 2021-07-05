@@ -101,3 +101,32 @@ ul a {
 #about-me > p {
   margin-bottom: 100px;
 }
+/* Recipe  */
+.recipies {
+  margin: 0 5% 0 5%;
+}
+.recipe {
+  width: 25.33%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin: auto;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 3px 23px rgb(158, 155, 149);
+}
+.recipe img {
+  width: 98%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recipe h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: rgb(20, 20, 20);
+}
+.recipe p {
+  color: rgb(56, 56, 56);
+  text-align: justify;
+}
