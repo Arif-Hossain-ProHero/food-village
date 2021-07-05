@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+.half-width h1 {
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+.tomato-color {
+  color: tomato;
+}
+.head-section {
+  background-image: url(images/top-bg2.png);
+  background-repeat: no-repeat;
+}
+.flexible-container {
+  display: flex;
+}
+.top {
+  padding-top: 80px;
+}
+.half-width {
+  width: 50%;
+  margin-left: 5%;
+}
+.half-width img {
+  width: 100%;
+}
+.btn {
+  text-decoration: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(238, 116, 1),
+    rgb(231, 174, 68)
+  );
+  padding: 20px 28px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  color: white;
+}
+.half-width p {
+  margin-bottom: 50px;
+  color: rgb(56, 56, 56);
+  line-height: 25px;
+}
+
+/* Nav Bar */
+.nav-bar {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.nav-bar {
+  width: 70%;
+}
+.nav-bar ul {
+  list-style-type: none;
+}
+
+ul > li {
+  padding: 10px 30px;
+  display: inline-block;
+}
+ul a {
+  text-decoration: none;
+}
+.logo {
+  margin-top: -22px;
+}
