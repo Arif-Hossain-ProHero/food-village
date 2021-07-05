@@ -15,6 +15,7 @@ h1 {
 .head-section {
   background-image: url(images/top-bg2.png);
   background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
 .flexible-container {
   display: flex;
@@ -83,4 +84,11 @@ ul a {
 }
 #home-btn {
   color: orange;
+}
+
+/* About section  */
+.about-section {
+  background-image: url(images/about-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
