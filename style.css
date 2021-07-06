@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: "Rubik", sans-serif;
 }
+/* head section  */
 h1 {
   font-size: 50px;
   color: rgb(32, 32, 32);
@@ -100,6 +101,7 @@ ul a {
 }
 #about-me > p {
   margin-bottom: 100px;
+  color: rgb(37, 37, 37);
 }
 /* Recipe  */
 .recipe-container {
@@ -143,6 +145,13 @@ ul a {
   margin-bottom: 100px;
   font-size: 18px;
   color: rgb(56, 56, 56);
+}
+.more-btn {
+  background-color: orange;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
 }
 /* get in touch */
 .get-touch-section {
@@ -192,7 +201,7 @@ footer {
   height: 50px;
   margin-right: 10px;
 }
-.play-store {
+#play-store {
   width: 50%;
 }
 .footer-link {
@@ -206,10 +215,10 @@ footer {
   width: 50px;
 }
 .blakish-color {
-  color: rgb(58 19 13);
+  color: #23100b;
 }
 .address-section > h2 {
-  color: orangered;
+  color: #23100b;
 }
 .copyright {
   text-align: center;
