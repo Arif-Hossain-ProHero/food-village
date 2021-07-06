@@ -18,7 +18,7 @@ h2 {
   color: rgb(255, 48, 11);
 }
 .head-section {
-  background-image: url(images/top-bg2.png);
+  background-image: url(images/top-bg3.png);
   background-repeat: no-repeat;
 }
 .flexible-container {
@@ -45,9 +45,9 @@ h2 {
   color: white;
   box-shadow: 2px 3px 10px orange;
 }
-.half-width p {
+#intro {
   margin-bottom: 50px;
-  color: rgb(56, 56, 56);
+  color: rgb(37, 37, 37);
   line-height: 25px;
 }
 
@@ -102,7 +102,10 @@ ul a {
   margin-bottom: 100px;
 }
 /* Recipe  */
-.recipies {
+.recipe-container {
+  margin-bottom: 100px;
+}
+.recipes {
   margin: 0 5% 0 5%;
 }
 .recipe {
@@ -133,7 +136,6 @@ ul a {
 .recipe-heading h2 {
   text-align: center;
   padding: 30px 0;
-  color: ;
 }
 .recipe-heading p {
   margin: auto;
@@ -141,4 +143,42 @@ ul a {
   margin-bottom: 100px;
   font-size: 18px;
   color: rgb(56, 56, 56);
+}
+
+/* Footer section  */
+
+footer {
+  background-image: url(images/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 50px;
+}
+.social-link img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.play-store {
+  width: 50%;
+}
+.footer-link {
+  margin-bottom: 30px;
+}
+.footer-link a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding-top: 16px;
+  width: 50px;
+}
+.blakish-color {
+  color: rgb(58 19 13);
+}
+.address-section > h2 {
+  color: orangered;
+}
+.copyright {
+  text-align: center;
+  padding-bottom: 8px;
 }
