@@ -134,6 +134,7 @@ ul a {
 .recipe p {
   color: rgb(56, 56, 56);
   text-align: justify;
+  margin-bottom: 20px;
 }
 .recipe-heading h2 {
   text-align: center;
